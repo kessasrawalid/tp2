@@ -1,0 +1,159 @@
+
+
+			#headerorigin,
+			nav,
+			aside,
+			main,
+			#footerorigin{
+			border-style:solid;
+			margin: 5px;
+			
+			}
+
+
+			nav{
+				float: left;
+				width: 12%;
+			}
+			main{
+				float: left;
+				width: 50%;
+			}
+			aside{
+				float: right;
+				width: 32%;
+			}
+
+			#footerorigin{
+				clear: both;
+			}
+		#headerorigin{
+            background:linear-gradient(10deg, black,rgb(153, 45, 117) );
+            text-align: center;
+            animation: changebackground 0.5s ;
+            animation-iteration-count: infinite;
+
+        }	
+        #headerorigin h1{
+            color: white;
+        }	
+        @keyframes changebackground {
+            0%{
+              background-color: rgb(247, 34, 151);
+              background:linear-gradient(10deg, black,rgb(153, 45, 117) );
+            }
+            25%{
+                background-color: rgb(247, 34, 151);
+                background:linear-gradient(45deg, black,rgb(153, 45, 117) );
+              }
+              50%{
+                background-color: rgb(247, 34, 151);
+                background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+              }
+            75%{
+                background-color: rgb(135, 28, 156);
+                background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+              }
+              100%{
+                background-color: rgb(180, 13, 73);
+                background:linear-gradient(135deg, black,rgb(153, 45, 117) );
+              }
+            }
+
+            nav li{
+                
+               
+                
+                list-style-type: none;
+                border-style: solid;
+                margin: 5px;
+                padding: 10px;
+                background-color: white;
+            }
+            nav ul{
+                padding:0;
+            }
+            nav{
+                background:linear-gradient(135deg, black,rgb(153, 45, 117) );
+            }
+            nav li a{
+                text-decoration: none;
+                color: black;
+            }
+             table ,td,th{
+                 border:5px solid black
+                 
+             }
+
+             table{
+                 border-collapse: collapse;
+                 background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+                 animation: changebackground 0.5s ;
+                 animation-iteration-count: infinite;
+                 color: white;
+             }
+             section{
+                 border-style: solid;
+                 margin: 15px;
+             }
+             main header{
+                 border-bottom: solid;
+                 padding: 15px;
+                 background-color: rgb(121, 37, 76) ;
+             }
+             main footer{
+                border-top: solid;
+                padding: 10px 0px 10px 10px;
+                background-color: rgb(168, 79, 120) ;
+            }
+            h2{
+                padding: 0px;
+                margin: 0px;
+            }
+            figure{
+                text-align: center;
+                filter: contrast(130%);
+            }
+            img{
+                filter: contrast(190%);
+            }
+             img:hover{
+                width: 70%;
+                height: 50%;
+                
+                
+            }
+            footer a{
+                color:white;
+            }
+            article{
+                padding: 10px;
+            }
+            #footerorigin{
+                color: rgb(53, 7, 50);
+                font: 15pt tahoma;
+                padding: 20px;
+                background:linear-gradient(90deg, black,rgb(153, 45, 117) );
+                 animation: changebackground 0.5s ;
+                 animation-iteration-count: infinite;
+                 color: white;
+                 border: 5px solid black;
+            }
+
+           @media(max-width:1000px){
+            nav,
+            main,
+            aside {
+                width:100%;
+                float:none;
+            }
+            table{
+                width:100%;
+            }
+        }
+        #walid{
+            
+           
+            
+            
+        }
